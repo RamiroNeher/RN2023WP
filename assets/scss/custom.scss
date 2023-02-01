@@ -1,0 +1,117 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/functions";
+
+// 2. Include any default variable overrides here
+$black: #403F3F;
+$white: #FAFAFA;
+
+$light: $white;
+$dark: $black;
+
+$primary: red;
+$secondary: #8D9C02;
+
+$grid-gutter-width: 20px;
+
+$font-size-base: .9rem;
+
+$font-family-sans-serif: 'roc-grotesk', sans-serif;
+$headings-font-family: 'Unbounded',cursive;
+
+
+$modal-backdrop-opacity: .8;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "bootstrap/bootstrap";
+ 
+// 5. Add additional custom code here
+// $theme-gray: #0B251E;
+
+
+body {
+    position: relative;  
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    letter-spacing: .1rem;
+}
+
+a {
+    color: $primary;
+    text-decoration: none;
+}
+
+/******************
+STOREFRONT
+******************/
+.col-full {
+    max-width: 1280px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/******************
+GENERALES
+******************/
+.site-content {
+    padding-top: 90px;
+}
+
+@media(min-width: 768px) {
+    padding-top: 110px;
+}
+
+.font-primary {
+    font-family:  'roc-grotesk', sans-serif;
+}
+
+.font-secondary {
+    font-family: 'roc-grotesk-wide',
+        sans-serif;
+}
+
+.rounded-1 {
+    border-radius: .25rem !important;
+}
+
+.rounded-2 {
+   
+    border-radius: .5rem !important;
+}
+.rounded-3 {
+    border-radius: 1rem !important;
+}
+
+/******************
+HEADER
+******************/
+.site-header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar form {
+    margin-bottom: 0;
+}
+
+.archive-libros-item {
+    min-width: 150px;
+    max-width: 50%;
+}
+
+@media(min-width: 768px) {
+    .archive-libros-item {
+        max-width: 25%;
+    }
+}
+
+@media(min-width: 960px) {
+    .archive-libros-item {
+        max-width: 12.5%;
+    }
+}
