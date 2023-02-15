@@ -99,19 +99,10 @@ HEADER
     margin-bottom: 0;
 }
 
-.archive-libros-item {
-    min-width: 150px;
-    max-width: 50%;
-}
-
 @media(min-width: 768px) {
-    .archive-libros-item {
-        max-width: 25%;
-    }
+    
 }
 
 @media(min-width: 960px) {
-    .archive-libros-item {
-        max-width: 12.5%;
-    }
+    
 }
