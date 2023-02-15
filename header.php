@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php tha_html_before(); ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
     <head>
         <?php tha_head_top(); ?>
         <meta charset="UTF-8">
