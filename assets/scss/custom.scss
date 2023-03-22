@@ -63,7 +63,9 @@ GENERALES
 }
 
 @media(min-width: 768px) {
-    padding-top: 110px;
+    .site-content {
+        padding-top: 90px;
+    }
 }
 
 .font-primary {
